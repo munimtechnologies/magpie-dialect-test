@@ -1,0 +1,463 @@
+{
+ "paper": "doi:10.1098/rspb.2025.1620",
+ "data": "doi:10.6084/m9.figshare.28251398.v2",
+ "seed": 20261124,
+ "settings": {
+  "relabel_worlds": 9999,
+  "donor_worlds": 200,
+  "donor_relabels": 999,
+  "power_worlds": 50,
+  "t4_perms": 99999,
+  "gh_nodes": 25
+ },
+ "fetch_report": {
+  "COMBINATION_repertoire.csv": {
+   "bytes": 78432,
+   "md5": "f60a6af46f0161225b5965eb2c917874",
+   "sha256": "256c7333b2ac83499214ca53f98811a0a2e3373469c5ae7a1e59eddd3335f9eb",
+   "matches_figshare": true
+  },
+  "COMBINATION_repertoire_single_occurrences_removed.csv": {
+   "bytes": 47142,
+   "md5": "85264331328a82127c4b2d807ce88a36",
+   "sha256": "4184dfdd258f778a07d3b8fe88e35ee9999259e12496020e4476a7eb5268315d",
+   "matches_figshare": true
+  },
+  "Frequency_diversity_data.csv": {
+   "bytes": 48384,
+   "md5": "08feedc34b5446c0fbf778a262277361",
+   "sha256": "c59db4210ceb4bc7d9a2454b1eb9931344293085a220304fddc4c38040534296",
+   "matches_figshare": true
+  },
+  "DISCRETE_repertoire.csv": {
+   "bytes": 3308,
+   "md5": "5be86be6a977aea606fbad023359db7f",
+   "sha256": "869b081d26a047994f760e5c32ce76fb8440ff9ec5e30809a974f0d89da4b663",
+   "matches_figshare": true
+  },
+  "total_repertoire.csv": {
+   "bytes": 90938,
+   "md5": "7585bf3be946d86b12871754a39a3ead",
+   "sha256": "09213bbf1c5de4bcab62f882d0ed93081c1914b43e7352cf1dea33be63b9f906",
+   "matches_figshare": true
+  }
+ },
+ "primary": {
+  "loader": {
+   "rows": 1170,
+   "fledglings": 10,
+   "types": 117,
+   "groups": 8,
+   "all_cells_present": true,
+   "fledglings_per_group": {
+    "BWYb": 1,
+    "GON": 1,
+    "JOG": 3,
+    "MBG": 1,
+    "NH": 1,
+    "PR": 1,
+    "RVD": 1,
+    "SCL": 1
+   },
+   "multi_fledgling_group_records_identical": {
+    "JOG": false
+   },
+   "exgroup_equals_union_of_other_groups_share": [
+    1.0,
+    0.9914529914529915,
+    0.9658119658119658,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.9743589743589743,
+    0.9829059829059829,
+    0.9572649572649573
+   ],
+   "share_of_F_in_own_follow_record": [
+    0.7222222222222222,
+    0.3333333333333333,
+    1.0,
+    0.75,
+    null,
+    0.3409090909090909,
+    0.5714285714285714,
+    0.4,
+    0.5,
+    0.38461538461538464
+   ],
+   "repertoire_sizes": [
+    18,
+    6,
+    6,
+    4,
+    0,
+    44,
+    21,
+    10,
+    4,
+    13
+   ],
+   "follow_record_sizes": [
+    41,
+    3,
+    11,
+    22,
+    15,
+    22,
+    28,
+    12,
+    13,
+    10
+   ]
+  },
+  "dropped_empty_fledglings": [
+   "NHFL"
+  ],
+  "T0": {
+   "base": {
+    "params": [
+     -2.540806157549825,
+     0.10368050665646587
+    ],
+    "nll": 357.4971376534552,
+    "aicc": 719.00455808326,
+    "converged": true,
+    "b1": null,
+    "se": null,
+    "z": null,
+    "p": null
+   },
+   "pop": {
+    "params": [
+     -2.521094251218397,
+     -0.028318369872604863,
+     0.10301309380446776
+    ],
+    "nll": 357.48845069404825,
+    "aicc": 720.997484578491,
+    "converged": true,
+    "b1": -0.028318369872604863,
+    "se": 0.21460602555533773,
+    "z": -0.13195514804081196,
+    "p": 0.8950197681201157
+   },
+   "group": {
+    "params": [
+     -3.161457114072989,
+     2.251367486484622,
+     0.13338591232365865
+    ],
+    "nll": 312.66203290530865,
+    "aicc": 631.3446490010118,
+    "converged": true,
+    "b1": 2.251367486484622,
+    "se": 0.2424254641454984,
+    "z": 9.286844079767961,
+    "p": 1.5893080749713055e-20
+   },
+   "decision_fires": true,
+   "cells": 1170
+  },
+  "T1": {
+   "D": 0.14667563477087284,
+   "worlds": 9999,
+   "p": 0.0124,
+   "null_mean": 0.0420792922364508,
+   "null_q95": 0.12273957083480899,
+   "reading": "OWN_GROUP_EXCESS",
+   "own_overlap": [
+    0.7222222222222222,
+    0.3333333333333333,
+    1.0,
+    0.75,
+    0.3409090909090909,
+    0.5714285714285714,
+    0.4,
+    0.75,
+    0.5384615384615384
+   ],
+   "mean_other_overlap": [
+    0.3015873015873015,
+    0.7142857142857143,
+    0.47619047619047616,
+    0.75,
+    0.20454545454545456,
+    0.36054421768707484,
+    0.3285714285714286,
+    0.5,
+    0.4505494505494506
+   ]
+  },
+  "T2": {
+   "D_ord": 0.034677139439044234,
+   "fledglings_entered": 9,
+   "multi_order_types_in_universe": 57,
+   "multi_order_types_produced": 38,
+   "worlds": 9999,
+   "p": 0.1612,
+   "null_mean": -0.006973252003766955,
+   "reading": "ORDER_ADDS_NOTHING_MEASURABLE"
+  },
+  "T3": {
+   "worlds": 200,
+   "t1_hits": 1,
+   "t1_rate": 0.005,
+   "t0_hits": 200,
+   "t0_rate": 1.0,
+   "t0_reading": "MISCALIBRATED"
+  },
+  "power": {
+   "q_t1": 0.14667563477087284,
+   "t1": {
+    "worlds": 50,
+    "hits": 50,
+    "power": 1.0
+   },
+   "t2": {
+    "worlds": 50,
+    "hits": 7,
+    "power": 0.14
+   }
+  },
+  "T4": {
+   "fledglings_used": [
+    "BITS",
+    "GONFL",
+    "MBPX",
+    "MONKEY",
+    "PRFL",
+    "PXYM",
+    "SOLID",
+    "TONY",
+    "YXBM"
+   ],
+   "missing_in_freq_file": [],
+   "contacts_not_constant": [],
+   "combo_freq_unparsed": 0,
+   "contacts": [
+    9.0,
+    2.0,
+    12.0,
+    4.0,
+    5.0,
+    10.0,
+    6.0,
+    14.0,
+    14.0
+   ],
+   "effort": [
+    66.0,
+    8.0,
+    16.0,
+    5.0,
+    166.0,
+    76.0,
+    30.0,
+    9.0,
+    67.0
+   ],
+   "size": [
+    18.0,
+    6.0,
+    6.0,
+    4.0,
+    44.0,
+    21.0,
+    10.0,
+    4.0,
+    13.0
+   ],
+   "rho_adjusted": -0.8786687791935092,
+   "p": 0.9988,
+   "perms": 99999,
+   "rho_raw_contacts_size": -0.004219446843148565,
+   "rho_effort_size": 0.9412097036339401,
+   "reading": "CONTACTS_EFFECT_NOT_SEPARABLE_FROM_EFFORT"
+  }
+ },
+ "secondary": {
+  "loader": {
+   "rows": 730,
+   "fledglings": 10,
+   "types": 73,
+   "groups": 8,
+   "all_cells_present": true,
+   "fledglings_per_group": {
+    "BWYb": 1,
+    "GON": 1,
+    "JOG": 3,
+    "MBG": 1,
+    "NH": 1,
+    "PR": 1,
+    "RVD": 1,
+    "SCL": 1
+   },
+   "multi_fledgling_group_records_identical": {
+    "JOG": false
+   },
+   "exgroup_equals_union_of_other_groups_share": [
+    1.0,
+    0.9863013698630136,
+    0.958904109589041,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.9863013698630136,
+    0.9726027397260274,
+    0.9452054794520548
+   ],
+   "share_of_F_in_own_follow_record": [
+    0.8125,
+    0.3333333333333333,
+    1.0,
+    0.75,
+    null,
+    0.5357142857142857,
+    0.75,
+    0.6666666666666666,
+    0.5,
+    0.45454545454545453
+   ],
+   "repertoire_sizes": [
+    16,
+    6,
+    6,
+    4,
+    0,
+    28,
+    16,
+    6,
+    4,
+    11
+   ],
+   "follow_record_sizes": [
+    36,
+    3,
+    11,
+    20,
+    12,
+    20,
+    26,
+    11,
+    12,
+    10
+   ]
+  },
+  "dropped_empty_fledglings": [
+   "NHFL"
+  ],
+  "T0": {
+   "base": {
+    "params": [
+     -2.177919090219512,
+     -0.0434159475877225
+    ],
+    "nll": 265.2058931453044,
+    "aicc": 534.42829248043,
+    "converged": true,
+    "b1": null,
+    "se": null,
+    "z": null,
+    "p": null
+   },
+   "pop": {
+    "params": [
+     -1.7943417008003217,
+     -0.41672901651500227,
+     -0.06104433347963859
+    ],
+    "nll": 264.61584264725286,
+    "aicc": 535.2647431457453,
+    "converged": true,
+    "b1": -0.41672901651500227,
+    "se": 0.37472235748531846,
+    "z": -1.1121007545735502,
+    "p": 0.26609483234010034
+   },
+   "group": {
+    "params": [
+     -3.0828074301697637,
+     2.4314373058152148,
+     -0.021102379015785228
+    ],
+    "nll": 221.60907783870272,
+    "aicc": 449.2512135286451,
+    "converged": true,
+    "b1": 2.4314373058152148,
+    "se": 0.27760182090960034,
+    "z": 8.758722467483382,
+    "p": 1.9747566280303524e-18
+   },
+   "decision_fires": true,
+   "cells": 730
+  },
+  "T1": {
+   "D": 0.17556517556517556,
+   "worlds": 9999,
+   "p": 0.0042,
+   "null_mean": 0.04657397987445278,
+   "null_q95": 0.1332371332371332,
+   "reading": "OWN_GROUP_EXCESS",
+   "own_overlap": [
+    0.8125,
+    0.3333333333333333,
+    1.0,
+    0.75,
+    0.5357142857142857,
+    0.75,
+    0.6666666666666666,
+    0.75,
+    0.6363636363636364
+   ],
+   "mean_other_overlap": [
+    0.3392857142857143,
+    0.7142857142857143,
+    0.47619047619047616,
+    0.75,
+    0.32142857142857145,
+    0.4732142857142857,
+    0.5476190476190477,
+    0.5,
+    0.5324675324675324
+   ]
+  },
+  "T3": {
+   "worlds": 200,
+   "t1_hits": 0,
+   "t1_rate": 0.0,
+   "t0_hits": 200,
+   "t0_rate": 1.0,
+   "t0_reading": "MISCALIBRATED"
+  }
+ },
+ "predictions": {
+  "outcomes": {
+   "Q1_T1_own_group_excess": true,
+   "Q2_T2_order_carries_group_signal": false,
+   "Q3_T0_decision_miscalibrated": true,
+   "Q4_T4_contacts_survive_effort": false,
+   "Q5_T2_uninformative": false,
+   "Q6_T0_fires_in_over_half_of_donor_worlds": true
+  },
+  "priors": {
+   "Q1_T1_own_group_excess": 0.6,
+   "Q2_T2_order_carries_group_signal": 0.25,
+   "Q3_T0_decision_miscalibrated": 0.4,
+   "Q4_T4_contacts_survive_effort": 0.35,
+   "Q5_T2_uninformative": 0.3,
+   "Q6_T0_fires_in_over_half_of_donor_worlds": 0.55
+  },
+  "brier": {
+   "Q1_T1_own_group_excess": 0.16000000000000003,
+   "Q2_T2_order_carries_group_signal": 0.0625,
+   "Q3_T0_decision_miscalibrated": 0.36,
+   "Q4_T4_contacts_survive_effort": 0.12249999999999998,
+   "Q5_T2_uninformative": 0.09,
+   "Q6_T0_fires_in_over_half_of_donor_worlds": 0.20249999999999996
+  },
+  "mean_brier": 0.16624999999999998
+ },
+ "elapsed_s": 94.12590503692627
+}
